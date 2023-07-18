@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    min-height: 130px;
+}
+
+.gamer{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-item li{
+    list-style: none;
+    margin-left: 50px;
+
+}
+.nav-item li a{
+    text-decoration: none;
+}
+
+.btn-primary img{
+    width: 33.916px;
+    height: 24px;
+}
+.btn-primary{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device response style */
+
+@media screen and (max-width: 576px) {
+    body{
+        background: #FFF;
+    }
+    .nav-container, .nav-item ul{
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .nav-item li{
+        margin-top: 20px;
+    }
+}
