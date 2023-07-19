@@ -511,4 +511,110 @@ footer{
         }
 }
 
+@media screen and (min-width: 577px) and (max-width: 914px) {
+    body{
+        background: #FFF;
+    }
+    .nav-container, .nav-item ul, .gamer-container{
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .nav-item li{
+        margin-top: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 30px;
+    }
+    .banner-photo img, .gamer-photo img{
+        width: 100%;
+    }
+    .banner-content, .gamer-content{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    b{
+        font: 20px;
+    }
+    .know-more{
+        margin-bottom: 30px;
+    }
+    .online-game-container .cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+
+    /* ------------ */
+
+    .play-instant-container{
+    flex-direction: column;
+    }
+    .play-instant-photo{
+    width: 100%;
+    }
+    .second-container{
+    flex-direction: column-reverse;
+    }
+    .play-instant-container .content {
+        width: 400px;
+        margin-left: 10px;
+    }
+    .photo .photo1,
+    .photo1 .photo11 {
+        width: 350px;
+        height: 350px;
+    }
+.photo .photo1{
+    width: 300px;
+    margin: auto;
+}
+.photo1 .photo11{
+    margin-left: 100px;
+}
+
+    .photo2 {
+        position: relative;
+        bottom: 200px;
+        left: 150px;
+        width: 200px;
+        height: 220px;
+        margin-bottom: 30px;
+    }
+    .photo21 {
+        position: relative;
+        bottom: 200px;
+        left: 350px;
+        width: 200px;
+        height: 220px;
+    }
+
+
+
+
+        .careers-container{
+            width: 100%;
+            flex-direction: column;
+            padding: 40px;
+        }
+        .group-img img{
+            width: 100%;
+        }
+        .careers-content{
+            width: 450px;
+        }
+
+    .game-action-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .game-action-container li:hover{
+        padding: 5px;
+    }
+        .footer-container div{
+            flex-wrap: wrap;
+        }
+}
+
 
