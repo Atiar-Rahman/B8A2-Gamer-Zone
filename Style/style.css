@@ -338,8 +338,27 @@ b{
 }
 /* finished the careers section */
 
+.game-action-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 50px;
+}
 
-
+.game-action-container li{
+    list-style: none;
+    text-align: center;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+}
+.game-action-container li:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    background: #FFF;
+}
 
 
 
@@ -441,6 +460,14 @@ b{
         .careers-content{
             width: 450px;
         }
+
+    .game-action-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .game-action-container li:hover{
+        padding: 5px;
+    }
 }
 
 
